@@ -1,0 +1,104 @@
+body {
+    background-color:rgb(0, 0, 0) 
+}
+#table td {
+    border:5px solid rgba(63, 59, 59, 0.884); 
+    width: 70px;height: 70px;
+    font-size: 30px;
+    text-align:center;
+    background-color: rgba(163, 152, 152, 0.884); 
+}
+#table{
+    border-collapse: collapse;
+}
+#hiddiv{
+    font-size: 30px;
+    text-align: center;
+    color: yellowgreen}
+#divMarg{
+    width: 236px;
+    margin:20px auto;
+}
+
+#table5 td {
+    border:5px solid rgba(63, 59, 59, 0.884); 
+    width: 39.5px;
+    height: 39.5px;
+    font-size: 30px;
+    text-align:center;
+    background-color: yellow;
+    margin-top: 950px
+}
+
+#table5{border-collapse: collapse;}
+    
+    
+.line{stroke:red;stroke-width:3;display: none;}
+#svg{position: absolute;display: none;}
+.line5x5{stroke:red;stroke-width:2;display: none;}
+#svg5x5{position: absolute;display: none;}
+
+#div1 {
+    width: 400px;
+    height: 150px;
+    margin:auto;
+    border:1px solid blueviolet;
+}
+
+#clear {
+    background-color: rgb(176, 152, 199);
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    margin:0 auto;
+    cursor: pointer;}
+
+.p {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#divContent{
+    margin:0 auto;
+    border:5px solid  rgba(63, 59, 59, 0.884); 
+    width: 260px;
+    /* height: 500px; */
+    background-color: rgba(63, 59, 59, 0.884);
+    padding-right: 8px;
+    padding-left: 8px
+}
+
+#mainDiv {
+    /* border:1px solid white; */
+    width: 400px;
+    margin:20px auto
+}
+
+#x5{
+    margin:0 auto;
+    border:2px solid blueviolet;
+    background-color: rgba(29, 27, 27, 0.884);
+    margin: 5px auto;
+    width: 270px; 
+    font-size: 24px;
+    font-family: cursive;
+    color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttonId{
+    margin:0 auto;
+    border:2px solid blueviolet;
+    background-color: rgba(29, 27, 27, 0.884);
+    margin: 5px auto;
+    width: 270px; 
+    font-size: 24px;
+    font-family: cursive;
+    color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}

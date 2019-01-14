@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="div1">
+            <p class="p" id="p">Player X won 0 rounds</p>
+            <p class="p" id="p1">Player O won 0 rounds</p>
+            <p class="p" id="p2">The game was a tie 0 rounds</p>
+
+            <p id="clear">Clear</p>
+            
+    </div>
+	
+    <!-- board -->
+    <div id="mainDiv">
+
+        <div id="divContent">
+            <div id="divMarg">
+
+                <svg id="svg5x5" height="232" width="232">
+                    <line id="l11" class="line5x5" x1="222" y1="25" x2="11" y2="25"/>
+                    <line id="l22" class="line5x5" x1="222" y1="70" x2="13" y2="70"/>
+                    <line id="l33" class="line5x5" x1="223" y1="117" x2="11" y2="117"/>
+                    <line id="l44" class="line5x5" x1="223" y1="162" x2="11" y2="162"/>
+                    <line id="l55" class="line5x5" x1="223" y1="208" x2="11" y2="208"/>
+                    <line id="l66" class="line5x5" x1="26" y1="224" x2="26" y2="10"/>
+                    <line id="l77" class="line5x5" x1="72" y1="224" x2="72" y2="10"/>
+                    <line id="l88" class="line5x5" x1="118" y1="224" x2="118" y2="10"/>
+                    <line id="l99" class="line5x5" x1="164" y1="224" x2="164" y2="10"/>
+                    <line id="l10" class="line5x5" x1="211" y1="224" x2="211" y2="10"/>
+                    <line id="l101" class="line5x5" x1="14" y1="12" x2="223" y2="223"/>	  		
+                    <line id="l12" class="line5x5" x1="222" y1="12" x2="15" y2="220"/>
+                </svg>
+
+                    <table id="table5" style="display: none">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+
+            <svg id="svg" height="232" width="232">
+                <line id="l1" class="line" x1="220" y1="14" x2="14" y2="220"/>
+                <line id="l2" class="line" x1="220" y1="220" x2="14" y2="14"/>
+                <line id="l3" class="line" x1="41" y1="220" x2="41" y2="14"/>
+                <line id="l4" class="line" x1="118" y1="220" x2="118" y2="14"/>
+                <line id="l5" class="line" x1="195" y1="220" x2="195" y2="14"/>
+                <line id="l6" class="line" x1="220" y1="40" x2="14" y2="40"/> 
+                <line id="l7" class="line" x1="220" y1="118" x2="14" y2="118"/>
+                <line id="l8" class="line" x1="220" y1="195" x2="14" y2="195"/>
+            </svg>	
+
+                    <table id="table">
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                    <div id="hiddiv"></div>
+            </div>
+        </div>
+
+        <p id="buttonId" onclick="startgame()"> New game </p>
+        <p id="x5" onclick="play5x5()">5X5</p>
+    </div>
+    
+<script src="xo.js"></script>
+</body>
+
+</html>
